@@ -10,6 +10,13 @@ package smsgeeks;
  */
 public class Company {
     
+    private String name;
+    private String companyId;
     
+    private Company(String name, String companyId){
+        
+        this.name = name;
+        this.companyId = companyId;
+    }
     
 }

@@ -10,4 +10,15 @@ package smsgeeks;
  */
 public class Promotion {
     
+    private String promotionName;
+    private String shortCode;
+    private String companyName;
+    
+    private Promotion (String promotionName, String shortCode, String companyName){
+        
+        this.promotionName = promotionName;
+        this.companyName = companyName;
+        this.shortCode = shortCode;
+    }
+    
 }

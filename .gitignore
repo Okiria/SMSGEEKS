@@ -4,3 +4,6 @@
 *.jar
 *.war
 *.ear
+/smsgeeks/nbproject/private/
+/smsgeeks/build/
+/smsgeeks/dist/

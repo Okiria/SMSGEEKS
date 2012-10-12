@@ -10,4 +10,6 @@ package smsgeeks;
  */
 public class Company {
     
+    
+    
 }

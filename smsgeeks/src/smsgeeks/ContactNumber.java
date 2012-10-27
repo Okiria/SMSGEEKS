@@ -1,6 +1,6 @@
 /*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
+ * SMSGEEKS © Copyrights reserved 2012
+ * 
  */
 package smsgeeks;
 

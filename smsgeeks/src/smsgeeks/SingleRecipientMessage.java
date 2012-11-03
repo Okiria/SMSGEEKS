@@ -8,6 +8,15 @@ package smsgeeks;
  *
  * @author Okiria Emmanuel
  */
+
+/**
+ * 
+ * imports
+ */
+
+import sms.*;
+
+
 public class SingleRecipientMessage extends OutBoundMessage {
     
     private ContactNumber recieverNumber;

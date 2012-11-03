@@ -8,6 +8,15 @@ package smsgeeks;
  *
  * @author Okiria Emmanuel
  */
+
+/**
+ * 
+ * imports
+ */
+
+import sms.*;
+
+
 public class OutBoundMessage extends Message {
     
     private String senderAlias;

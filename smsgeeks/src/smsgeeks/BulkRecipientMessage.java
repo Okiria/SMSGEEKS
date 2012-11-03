@@ -10,48 +10,48 @@ package smsgeeks;
  */
 public class BulkRecipientMessage extends OutBoundMessage {
     
-    private int NumberOfMessagesDelivered;
-    private int NumberOfMessagesNotSent;
-    private int NumberOfMessagesPending;
-    private ContactNumber ContactsReachedList;
-    private ContactNumber ContactsPendingList;
-    private ContactNumber ContactsNotReachedList;
-    private ContactNumber RecipientList;
+    private int numberOfMessagesDelivered;
+    private int numberOfMessagesNotSent;
+    private int numberOfMessagesPending;
+    private ContactNumber contactsReachedList;
+    private ContactNumber contactsPendingList;
+    private ContactNumber contactsNotReachedList;
+    private ContactNumber recipientList;
     
     
     //constructor for bulkrecipientmessage class
-    public BulkRecipientMessage(int NumberOfMessagesDelivered, int NumberOfMessagesNotSent, int NumberOfMessagesPending, ContactNumber ContactsReachedList, ContactNumber ContactsPendingList, ContactNumber ContactsNotReachedList, ContactNumber RecipientList,
-            MessageDirection MessageDirection, MessageType MessageType, String SenderAlias, SMSSendReport ReportOnSend, long TimeSent, long Validity, int NumberOfSentMessages, MessageStatus MessageStatus, String SendEventName){
-        super(MessageDirection, MessageType, SenderAlias, ReportOnSend, TimeSent, Validity, NumberOfSentMessages, MessageStatus, SendEventName);
+    public BulkRecipientMessage(int numberOfMessagesDelivered, int numberOfMessagesNotSent, int numberOfMessagesPending, ContactNumber contactsReachedList, ContactNumber contactsPendingList, ContactNumber contactsNotReachedList, ContactNumber recipientList,
+            MessageDirection messageDirection, MessageType messageType, String senderAlias, SMSSendReport reportOnSend, long timeSent, long validity, int numberOfSentMessages, MessageStatus messageStatus, String sendEventName){
+        super(messageDirection, messageType, senderAlias, reportOnSend, timeSent, validity, numberOfSentMessages, messageStatus, sendEventName);
         
-        this.ContactsNotReachedList = ContactsNotReachedList;
-        this.ContactsPendingList = ContactsPendingList;
-        this.ContactsReachedList = ContactsReachedList;
-        this.NumberOfMessagesDelivered = NumberOfMessagesDelivered;
-        this.NumberOfMessagesNotSent = NumberOfMessagesNotSent;
-        this.NumberOfMessagesPending = NumberOfMessagesPending;
-        this.RecipientList = RecipientList;
+        this.contactsNotReachedList = contactsNotReachedList;
+        this.contactsPendingList = contactsPendingList;
+        this.contactsReachedList = contactsReachedList;
+        this.numberOfMessagesDelivered = numberOfMessagesDelivered;
+        this.numberOfMessagesNotSent = numberOfMessagesNotSent;
+        this.numberOfMessagesPending = numberOfMessagesPending;
+        this.recipientList = recipientList;
         
     }
     
     // methods for bulkrecipientmessage
-    public void SendMessageToSelected(int number){
+    public void sendMessageToSelected(int number){
         
     }
     
-    public void SendMessageToAll(){
+    public void sendMessageToAll(){
         
     }
     
-    public void ScheduleAll(){
+    public void scheduleAll(){
         
     }
     
-    public void ScheduleSelected(){
+    public void scheduleSelected(){
         
     }
     
-    public void SetNumberOfMessagesSent(){
+    public void setNumberOfMessagesSent(){
         
     }
     

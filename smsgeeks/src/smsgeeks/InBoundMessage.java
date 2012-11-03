@@ -10,25 +10,25 @@ package smsgeeks;
  */
 public class InBoundMessage extends Message {
     
-    private ContactNumber SenderNumber;
-    private Boolean IsKeyWord;
-    private long TimeRecieved;
-    private int TotalMessageRecieved;
-    private String TotalMessageRevenueRecieved;
+    private ContactNumber senderNumber;
+    private Boolean isKeyWord;
+    private long timeRecieved;
+    private int totalMessageRecieved;
+    private String totalMessageRevenueRecieved;
     
     
     // this is a constructor for the inbound messages class
     public InBoundMessage(MessageDirection MessageDirection, MessageType MessageType, ContactNumber SenderNumber, Boolean IsKeyWord, long TimeRecieved, int TotalMessageRecieved, String TotalMessageRevenueRecieved){
         //call the constructor of the super class
         super(MessageDirection, MessageType);
-        this.IsKeyWord = IsKeyWord;
-        this.SenderNumber = SenderNumber;
-        this.TimeRecieved = TimeRecieved;
-        this.TotalMessageRecieved = TotalMessageRecieved;
-        this.TotalMessageRevenueRecieved = TotalMessageRevenueRecieved;
+        this.isKeyWord = IsKeyWord;
+        this.senderNumber = SenderNumber;
+        this.timeRecieved = TimeRecieved;
+        this.totalMessageRecieved = TotalMessageRecieved;
+        this.totalMessageRevenueRecieved = TotalMessageRevenueRecieved;
     }
     
-    public void RecieveMessage(){
+    public void recieveMessage(){
         
     }
 }

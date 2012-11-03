@@ -10,11 +10,11 @@ package smsgeeks;
  */
 public class MessageStatus {
     
-    private String NotSent;
-    private String Sent;
-    private String Delivered;
-    private String Pending;
-    private String Unknown;
+    private String notSent;
+    private String sent;
+    private String delivered;
+    private String pending;
+    private String unknown;
     
     
 }

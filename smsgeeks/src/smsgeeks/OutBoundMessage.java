@@ -10,40 +10,44 @@ package smsgeeks;
  */
 public class OutBoundMessage extends Message {
     
-    private String SenderAlias;
-    private SMSSendReport ReportOnSend;
-    private long TimeSent;
-    private long Validity;
-    private int NumberOfSentMessages;
-    private MessageStatus MessageStatus;
-    private String SendEventName;
+    private String senderAlias;
+    private SMSSendReport reportOnSend;
+    private long timeSent;
+    private long validity;
+    private int numberOfSentMessages;
+    private MessageStatus messageStatus;
+    private String sendEventName;
     
     // this is the constructor for OutBoundMessages
-    public OutBoundMessage(MessageDirection MessageDirection, MessageType MessageType, String SenderAlias, SMSSendReport ReportOnSend, long TimeSent, long Validity, int NumberOfSentMessages, MessageStatus MessageStatus, String SendEventName){
-        super(MessageDirection, MessageType);
-        this.SenderAlias = SenderAlias;
-        this.ReportOnSend = ReportOnSend;
-        this.TimeSent = TimeSent;
-        this.Validity = Validity;
-        this.NumberOfSentMessages = NumberOfSentMessages;
-        this.MessageStatus = MessageStatus;
-        this.SendEventName = SendEventName;
+    public OutBoundMessage(MessageDirection messageDirection, MessageType messageType, String senderAlias, SMSSendReport reportOnSend, long timeSent, long validity, int numberOfSentMessages, MessageStatus messageStatus, String sendEventName){
+        super(messageDirection, messageType);
+        this.senderAlias = senderAlias;
+        this.reportOnSend = reportOnSend;
+        this.timeSent = timeSent;
+        this.validity = validity;
+        this.numberOfSentMessages = numberOfSentMessages;
+        this.messageStatus = messageStatus;
+        this.sendEventName = sendEventName;
         
     }
     
-    public void SendMessage(){
+    public void sendMessage(){
         
     }
     
-    public void ScheduleMessage(){
+    public void scheduleMessage(){
         
     }
     
-    public void RefreshAll(){
+    public void refreshAll(){
         
     }
     
-    public MessageStatus GetMessageStatus(MessageStatus status){
+    public void getReport(){
+        
+    }
+    
+    public MessageStatus getMessageStatus(MessageStatus status){
         return status;
     }
     

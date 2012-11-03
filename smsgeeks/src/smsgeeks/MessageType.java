@@ -10,7 +10,7 @@ package smsgeeks;
  */
 public class MessageType {
     
-    private String TextMessage;
-    private String ByteMessage;
+    private String textMessage;
+    private String byteMessage;
     
 }

@@ -10,28 +10,28 @@ package smsgeeks;
  */
 public class Message {
     
-    private MessageDirection MessageDirection ;
-    private MessageType MessageType ;
+    private MessageDirection messageDirection ;
+    private MessageType messageType ;
     
     //this is the constructor for class Message
-    public Message(MessageDirection MessageDirection, MessageType MessageType){
-        this.MessageDirection = MessageDirection;
-        this.MessageType = MessageType;
+    public Message(MessageDirection direction, MessageType type){
+        this.messageDirection = direction;
+        this.messageType = type;
     }
     
-    public void DeleteMessages(){
+    public void deleteMessages(){
         
     }
     
-    public void DeleteSelectedMessages(){
+    public void deleteSelectedMessages(){
       
     }
     
-    public String GetStringMessage(String message){
+    public String getStringMessage(String message){
         return message ;
     }
     
-    public Byte GetByteMessage(Byte bytemessage){
+    public Byte getByteMessage(Byte bytemessage){
         return bytemessage;
     }
     

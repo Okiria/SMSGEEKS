@@ -1,4 +1,6 @@
-/* @(#)SerialParameters.java	1.5 98/07/17 SMI
+package sms;
+
+/* 
  *
  * Copyright (c) 1998 Sun Microsystems, Inc. All Rights Reserved.
  *

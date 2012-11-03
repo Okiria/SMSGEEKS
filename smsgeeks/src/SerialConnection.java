@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.TooManyListenersException;
+import sms.SerialParameters;
 
 /**
 A class that handles the details of a serial connection. Reads from one

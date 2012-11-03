@@ -1,6 +1,8 @@
+package sms;
+
 /*
  * 
- * @author : William Alexander
+ * @author : Okiria Emmanuel
  *
 */
 public class SMSClient implements Runnable{

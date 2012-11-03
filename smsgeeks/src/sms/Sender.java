@@ -1,3 +1,5 @@
+package sms;
+
 /*
  * 
  * @author : William Alexander
@@ -10,6 +12,32 @@ public class Sender implements Runnable  {
   private static final long STANDARD=500;
   private static final long LONG=2000;
   private static final long  VERYLONG=20000;
+
+    private static class SerialConnection {
+
+        public SerialConnection() {
+        }
+
+        private SerialConnection(SerialParameters params) {
+            throw new UnsupportedOperationException("Not yet implemented");
+        }
+
+        private void openConnection() {
+            throw new UnsupportedOperationException("Not yet implemented");
+        }
+
+        private void send(String atcmgf1) {
+            throw new UnsupportedOperationException("Not yet implemented");
+        }
+
+        private void closeConnection() {
+            throw new UnsupportedOperationException("Not yet implemented");
+        }
+
+        private String getIncommingString() {
+            throw new UnsupportedOperationException("Not yet implemented");
+        }
+    }
 
   SerialConnection mySerial =null;
 

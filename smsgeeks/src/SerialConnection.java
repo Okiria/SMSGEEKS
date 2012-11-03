@@ -7,6 +7,12 @@ import java.io.OutputStream;
 import java.util.TooManyListenersException;
 import sms.SerialParameters;
 
+/*
+ * 
+ * @author : Okiria Emmanuel
+ *
+*/
+
 /**
 A class that handles the details of a serial connection. Reads from one
 TextArea and writes to a second TextArea.

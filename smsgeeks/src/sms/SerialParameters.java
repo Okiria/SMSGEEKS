@@ -2,11 +2,17 @@ package sms;
 
 /* 
  *
- * Copyright (c) 1998 Sun Microsystems, Inc. All Rights Reserved.
+ * Copyright (c) 2012 sms geeks. All Rights Reserved.
  *
  */
 
 import gnu.io.SerialPort;
+
+/*
+ * 
+ * @author : Okiria Emmanuel
+ *
+*/
 
 /**
 A class that stores parameters for serial ports.

@@ -2,7 +2,7 @@ package sms;
 
 /*
  * 
- * @author : William Alexander
+ * @author : Okiria Emmanuel
  *
 */
 import java.util.Date;

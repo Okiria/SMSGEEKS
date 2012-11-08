@@ -17,7 +17,7 @@ package smsgeeks;
 import sms.*;
 
 
-public class BulkRecipientMessage extends OutBoundMessage {
+public class BulkRecipientMessage extends OutBoundMessage implements Runnable{
     
     private int numberOfMessagesDelivered;
     private int numberOfMessagesNotSent;
@@ -62,6 +62,11 @@ public class BulkRecipientMessage extends OutBoundMessage {
     
     public void setNumberOfMessagesSent(){
         
+    }
+
+    @Override
+    public void run() {
+        throw new UnsupportedOperationException("Not supported yet.");
     }
     
 }

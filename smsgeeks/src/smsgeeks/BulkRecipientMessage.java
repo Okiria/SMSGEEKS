@@ -6,7 +6,7 @@ package smsgeeks;
 
 /**
  *
- * @author Okiria Emmanuel
+ * @author Okiria Emmanuel Ozeki
  */
 
  /**
@@ -68,7 +68,6 @@ public class BulkRecipientMessage extends OutBoundMessage implements Runnable{
     public void run() {
         throw new UnsupportedOperationException("Not supported yet.");
     }
-    
 }
 
 
